@@ -1,0 +1,17 @@
+@mixin wrapper{
+    max-width: 1240px;
+    margin: 0 auto;
+    padding:0 10px; 
+}
+
+@mixin price{
+    position: absolute;
+    left: 50%;
+    margin-left: -75px;
+    top:75%; 
+    text-transform: uppercase;
+    font-size:50px;
+    color:#12867f;
+    margin-top: 0;
+    margin-bottom: 0;
+}
